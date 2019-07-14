@@ -1,4 +1,23 @@
 # extracted from "The Riemann Hypothesis in Computer Science" by Yuri Matiyasevich
+# n!! is the product of all the integers from 1 up to n that have the same parity (odd or even) as n
+
+# d(1) = 0
+# d(n+1) = 2nd(n) - (-1)^n (2n - 2)!!
+
+# q(1) = 1
+# q(n+1) = (n+1)q(n)/g(n+1)
+# where g(m) = GCD(m, q(m-1))
+
+# p(1) = 0
+# p(n+1) = p(n) + 1 if g(n) = 1
+#          p(n) otherwise
+
+# f0(1) = 1
+# f0(n+1) = (2n+2)f0(n)
+
+# f3(1) = 1
+# f3(n+1) = (2n+5)f3(n)
+
 from math import gcd
 d=m=p=0
 f0=f1=f3=n=q=1
