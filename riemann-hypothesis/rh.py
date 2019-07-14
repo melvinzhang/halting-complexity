@@ -18,6 +18,9 @@
 # f3(1) = 1
 # f3(n+1) = (2n+5)f3(n)
 
+# l(n) = floor(log_2(q(n)))
+# p(n)^2(d(n)l(n) - f0(n)) < f3(n) all n = 1... iff the Riemann Hypothesis is true
+
 from math import gcd
 d=m=p=0
 f0=f1=f3=n=q=1
