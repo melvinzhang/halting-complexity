@@ -30,6 +30,14 @@ The reverse of a power of two is never a power of 5
 
 Enumerate all powers of two and check if it is a power of 5
 
+ZFC + SRP is consistent
+-----------------------
+[Yedidia and Aaronson](https://arxiv.org/abs/1605.04343) gave a 7,910-state Turing machine with 1 tape and a 2-symbol alphabet
+
+ZFC is consistent
+-----------------
+[Stefan O’Rear](https://github.com/sorear/metamath-turing-machines) gave a 1919 state Turing machine with 1 tape and 2-symbol alphabet
+
 References
 ----------
 * [Algorithmic Complexity of Mathematical Problems: An Overview of Results and Open Problems](https://www.cs.auckland.ac.nz/~cristian/crispapers/ComplexityMathProblemOpen.pdf)
