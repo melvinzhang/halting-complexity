@@ -11,7 +11,7 @@ Erdős ternary digit conjecture
 There is least one digit 2 in the base 3 representation of $2^n$ for $n \gt 8$.
 
 [Stérin and Woods 2021](https://arxiv.org/abs/2107.12475) describes two small Turing machine that half if and only if the conjecture is false.
-* [5-state 4-symbol Turing machine](https://github.com/tcosmo/bbsim/blob/main/machines/powers_of_two_5_4.txt) that halt
+* [5-state 4-symbol Turing machine](https://github.com/tcosmo/bbsim/blob/main/machines/powers_of_two_5_4.txt)
 * [15-state 2-symbol Turing machine](https://github.com/tcosmo/bbsim/blob/main/machines/powers_of_two_15_2.txt)
 
 Riemann Hypothesis
