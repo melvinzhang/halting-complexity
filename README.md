@@ -49,6 +49,7 @@ ZFC is consistent
 
 [K230](https://github.com/elliotglazer/k230-rocq) is a 230 state Turing machine with 1 tape and 2-symbol alphabet, with a Rocq proof that it halts iff ZFC is inconsistent
 * [readable Python version of its proof search](zfc/k230.py)
+* [faster search over the same proof system, with formulas as trees instead of numbers](zfc/k230_trees.py)
 
 References
 ----------
