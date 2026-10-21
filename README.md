@@ -39,8 +39,8 @@ The reverse of a power of two is never a power of 5
 
 Enumerate all powers of two and check if it is a power of 5
 
-ZFC + SRP is consistent
------------------------
+SRP is consistent
+-----------------
 [Yedidia and Aaronson](https://arxiv.org/abs/1605.04343) gave a 7,910-state Turing machine with 1 tape and a 2-symbol alphabet
 
 ZFC is consistent
@@ -48,12 +48,17 @@ ZFC is consistent
 [Stefan O’Rear](https://github.com/sorear/metamath-turing-machines) gave a 1919 state Turing machine with 1 tape and 2-symbol alphabet
 
 [K230](https://github.com/elliotglazer/k230-rocq) is a 230 state Turing machine with 1 tape and 2-symbol alphabet, with a Rocq proof that it halts iff ZFC is inconsistent
-* [readable Python version of its proof search](zfc/k230.py)
-* [faster search over the same proof system, with formulas as trees instead of numbers](zfc/k230_trees.py)
+* [Python version of its proof search](zfc/k230.py)
+* [Python version with formulas as trees instead of numbers](zfc/k230_trees.py)
+
+PA is consistent
+----------------
+[Matthew House](https://github.com/LegionMammal978/turing_machine_explorer/blob/main/pa.py) gave a 372 state Turning machine
 
 References
 ----------
 * [Algorithmic Complexity of Mathematical Problems: An Overview of Results and Open Problems](https://www.cs.auckland.ac.nz/~cristian/crispapers/ComplexityMathProblemOpen.pdf)
+* [Logical independence](https://wiki.bbchallenge.org/wiki/Logical_independence)
 
 Talks
 -----
